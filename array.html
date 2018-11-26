@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>This is timer</title>
+	</head>
+	
+	<body>
+		<script>
+		//array methods
+			var cars = ["Saab", "Volvo", "BMW"];
+			document.write(cars+"</br>");
+			document.write(cars.join(" * ")+"</br>");
+			document.write(cars.pop()+"</br>");
+			document.write(cars.shift()+"</br>");
+			document.write(cars.push("Kiwi")+"</br>");
+		//array sort
+			var fruits = ["Banana", "Orange", "Apple", "Mango"];
+			document.write(fruits.sort()+"</br>");
+			document.write(fruits.reverse()+"</br>");
+		//array Iteration Methods
+		
+		    var array = ["one","two","three"];
+			array.forEach(function(val,index){
+				document.write("This is the value "+val+" and this is the index number is-"+index+"</br>");
+				
+			});	
+			document.write(array.map(function(valu){
+					return valu.toUppercase();
+				}));
+		</script>
+	</body>
+</html>
+
